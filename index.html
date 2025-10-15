@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>albatross.com</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light
+bg-white py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand  d-flex justify-content-between 
+            align-items-center order-lg-0" href="index.html">
+                <span class="text-uppercase fw-lighter ms-2"> albatross.com </span>
+            </a>
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn 
+position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="position-absolute top-0 start-100
+translate-middle badge bg-primary">5</span>
+                </button>
+
+                <button type="button" class="btn 
+position-relative">
+                    <i class="fa fa-heart"></i>
+                    <span class="position-absolute top-0 start-100
+translate-middle badge bg-primary">2</span>
+                </button>
+
+                <button type="button" class="btn 
+position-relative">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+            <button class="navbar-toggler border-0  type=" button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1"
+             id="navmenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link  text-uppercase
+                         text-dark" href="#header">home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link   text-uppercase 
+                        text-dark   " href="#collection">collection</a>
+                    </li>
+                    <li class="nav-item  px-2 py-2 ">
+                        <a class="nav-link   text-uppercase 
+                        text-dark   " href="#speacial">specials</a>
+                    </li>
+
+                    <li class="nav-item  px-2 py-2">
+                        <a class="nav-link    text-uppercase text-dark   " href="#blogs">blogs</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link    text-uppercase text-dark   " href="#about">about us</a>
+                    </li>
+
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+
+<!-- header start -->
+
+    <header id="header" class="vh-100 carousel slide"
+     data-bs-ride="carousel"
+     style="padding-top: 104px;">
+        <div class="container h-100 d-flex align-items-center
+        carousel-inner">
+        <div class="text-center carousel-item active">
+            <h2 class="text-capitalize text-white">best collection</h2>
+            <h1 class="text-uppercase py-2 fw-bold text-white">
+                new arrivals</h1>
+    <a href="#" class="btn mt-3 text-uppercase">SHOP NOW</a>   
+</div>
+
+<div class="text-center carousel-item">
+    <h2 class="text-capitalize text-white">best price & offer</h2>
+    <h1 class="text-uppercase py-2 fw-bold text-white">
+        season</h1>
+<a href="#" class="btn mt-3 text-uppercase">Buynow</a>   
+</div>
+</div>
+
+<button class="carousel-control-prev" type="button"
+ data-bs-target="#header" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+
+<button class="carousel-control-next" type="button"
+ data-bs-target="#header" data-bs-slide="prev">
+<span class="carousel-control-next-icon"></span>
+</button>
+
+
+</header>
+<!--end of header-->
+
+<!-- collection -->
+
+<section id="collection" class="py-5">
+<div class="container">
+<div class="title text-center">
+ <h2 class="position-relative d-inline-block">
+     New Collection</h2>   
+</div>
+
+<div class="row g-0">
+    <div class="d-flex flex-wrap 
+    justify-content-center
+    mt-5    filter-button-group">
+<button type="button" class="btn m-2
+text-dark active-filter-btn " data-filter="*"> All</button>
+
+<button type="button" class="btn m-2
+text-dark" data-filter=".best">Best sellers</button>
+
+<button type="button" class="btn m-2
+text-dark" data-filter=".feat">Featured</button>
+
+<button type="button" class="btn m-2
+text-dark" data-filter=".new"> New Arrival</button>
+</div>
+
+<div class="collection-list mt-4 row gx-0 gy-3">
+    <!-- dress 1 -->
+<div class="col-md-6 col-lg-4 col-xl-3 py-2 best">
+
+    <div class="collection-img 
+    position-relative">  
+
+            <img src="images/dress-4.jpg"
+            class=" w-80">
+   </div>  
+    <div class="text-center">
+        <div class="rating mt-3">
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            </div>
+        <p class="text-capitalize my-1">gray top</p>
+        <span class="fw-bold">$ 23.50</span>
+</div>
+</div>
+<!-- dress 2 -->
+<div class="col-md-6 col-lg-4 col-xl-3 py-2 feat">
+
+    <div class="collection-img 
+    position-relative">  
+
+            
+    <img src="images/Fashion, Tweed Dress, Women's Fashion, Fashion Dresses, and Casual Dress image inspiration on Designspiration.jpg
+    "
+            class=" w-80">
+             
+
+                
+           
+   </div>  
+    <div class="text-center">
+        <div class="rating mt-3">
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            </div>
+        <p class="text-capitalize my-1">linen top</p>
+        <span class="fw-bold">$ 32.50</span>
+</div>
+</div>
+
+<!-- dress-3 -->
+<div class="col-md-6 col-lg-4 col-xl-3 py-2 new">
+
+    <div class="collection-img 
+    position-relative">  
+
+            <img src="images/flower-resized.jpeg"
+            class=" w-80">
+             
+
+                
+           
+   </div>  
+   
+   
+    <div class="text-center">
+        <div class="rating mt-3">
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            </div>
+        <p class="text-capitalize my-1">Roses forever</p>
+        <span class="fw-bold">$ 27.50</span>
+</div>
+</div>
+
+<!-- dress-4 -->
+
+<div class="col-md-6 col-lg-4 col-xl-3 py-2 best">
+
+    <div class="collection-img 
+    position-relative">  
+
+            <img src="images/resize-8.jpeg"
+            class=" w-80">
+             
+
+
+           
+   </div>  
+    <div class="text-center">
+        <div class="rating mt-3">
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            </div>
+        <p class="text-capitalize my-1">butterfly girl</p>
+        <span class="fw-bold">$ 21.50</span>
+</div>
+</div>
+<!-- dress-5 -->
+
+<div class="col-md-6 col-lg-4 col-xl-3 py-2 feat">
+
+    <div class="collection-img 
+    position-relative">  
+
+            <img src="images/resize-3.jpeg"
+            class=" w-80">
+             
+
+                 
+           
+   </div>  
+    <div class="text-center">
+        <div class="rating mt-3">
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            </div>
+        <p class="text-capitalize my-1">lace top</p>
+        <span class="fw-bold">$ 30.00</span>
+</div>
+</div>
+
+
+
+<!-- dress-6 -->
+
+
+
+<div class="col-md-6 col-lg-4 col-xl-3 py-2 new">
+
+    <div class="collection-img 
+    position-relative">  
+
+            <img src="images/resize-4.jpeg"
+            class=" w-80">
+             
+
+               
+           
+   </div>  
+    <div class="text-center">
+        <div class="rating mt-3">
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            </div>
+        <p class="text-capitalize my-1">deedat </p>
+        <span class="fw-bold">$ 23.40</span>
+</div>
+</div>
+
+
+
+
+
+<!-- dress-7 -->
+
+<div class="col-md-6 col-lg-4 col-xl-3 py-2 best">
+
+    <div class="collection-img 
+    position-relative">  
+
+            <img src="images/resize-5.jpeg"
+            class=" w-80">
+             
+
+              
+   </div>  
+    <div class="text-center">
+        <div class="rating mt-3">
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            </div>
+        <p class="text-capitalize my-1">cheque</p>
+        <span class="fw-bold">$ 15.50</span>
+</div>
+</div>
+<!-- dress-8 -->
+
+<div class="col-md-6 col-lg-4 col-xl-3 py-2 feat">
+
+    <div class="collection-img 
+    position-relative">  
+
+            <img src="images/resize-6.jpeg"
+            class=" w-80">
+             
+
+
+   </div>  
+    <div class="text-center">
+        <div class="rating mt-3">
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            <span class="text-primary"><i class="fas fa-star"></i></span>
+            <span class="text-primary"><i class="fas fa-star"></i></span>    
+            </div>
+        <p class="text-capitalize my-1">nylon</p>
+        <span class="fw-bold">$ 55.00</span>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+</section>
+
+<!--end of collection -->
+
+
+<!-- speacial products -->
+<section id="speacial" class="py-5">
+    <div class="container">
+        <div class="title text-center py-5">
+            <h2 class="position-relative d-inline-block">Special Selection
+            </h2>
+        </div>
+
+ <!-- dress-1 -->
+        <div class="speacial-list row g-0">
+        <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="special-img position-relative
+            overflow-hidden">
+                <img src="images/Black Georgette ruffle work gown.jpg " class="w-100">
+<span class="position-absolute  d-flex  align-items-center
+ justify-content-center text-primary fs-4">
+    <i class="fas fa-heart"> </i>
+</span>
+</div>
+<div class="text-center">
+    <p class="text-capitalize mt-3 mb-1">silk maxi</p>
+    <span class="fw-bold d-block "> $ 65.50</span>
+    <a href="#" class="btn btn-primary mt-3">Add to Card</a>
+     </div>
+     </div>
+<!-- dress-2 -->
+     <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="special-img position-relative
+        overflow-hidden">
+            <img src="images/resized-speacial.jpeg" class="w-100">
+<span class="position-absolute  d-flex  align-items-center
+justify-content-center text-primary fs-4">
+<i class="fas fa-heart"> </i>
+</span>
+</div>
+<div class="text-center">
+<p class="text-capitalize mt-3 mb-1">elephant pant</p>
+<span class="fw-bold d-block "> $ 95.00</span>
+<a href="#" class="btn btn-primary mt-3">Add to Card</a>
+ </div>
+ </div>
+
+
+<!-- dress-3 -->
+
+ <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+    <div class="special-img position-relative
+    overflow-hidden">
+        <img src="images/saree.jpg" class="w-100">
+<span class="position-absolute  d-flex  align-items-center
+justify-content-center text-primary fs-4">
+<i class="fas fa-heart"> </i>
+</span>
+</div>
+<div class="text-center">
+<p class="text-capitalize mt-3 mb-1">lace saree</p>
+<span class="fw-bold d-block "> $ 85.00</span>
+<a href="#" class="btn btn-primary mt-3">Add to Card</a>
+</div>
+</div>
+
+<!-- dress-4 -->
+
+<div class="col-md-6 col-lg-4 col-xl-3 p-2">
+    <div class="special-img position-relative
+    overflow-hidden">
+        <img src="images/Hirz-e-Jaan (1).jpg " class="w-100">
+<span class="position-absolute  d-flex  align-items-center
+justify-content-center text-primary fs-4">
+<i class="fas fa-heart"> </i>
+</span>
+</div>
+<div class="text-center">
+<p class="text-capitalize mt-3 mb-1">Net maxi</p>
+<span class="fw-bold d-block "> $ 97.60</span>
+<a href="#" class="btn btn-primary mt-3">Add to Card</a>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+     </div>
+    </div>
+
+</section>
+
+
+
+<!-- end of speacial products -->
+
+<!-- blogs -->
+
+<section id="offers" class="py-5">
+    <div class="container">
+        <div class="row-d-flex align-items-center justify-content-center
+         text-center justify-content-lg-start
+         text-lg-start">
+            <div class="offers-content">
+                <span class="text-white"> DISCOUNT UP TO 40% </span>
+                <h2 class="mt-2 mb-4 text-white">Grand Sale Offer</h2>
+                <a href="#" class="btn">Buy Now </a>
+            </div>     
+        </div>
+    </div>
+</section>
+
+<!-- End of blogs -->
+
+<!-- blogs -->
+<section id="blogs" class="py-5">
+    <div class="container">
+        <div class="title text-center py-5">
+            <h2 class="position-relative d-inline-block">
+our latest blog
+            </h2>
+        </div>
+
+        <div class="row  g-3">
+            <div class="card border-0 col-md-6 col-lg-4
+            bg-transparent my-3">
+<img src="images/blogs img-1.jpg" alt="">
+<div class="card-body px-0">
+    <h4 class="card-title">
+        Lorem ipsum, dolor sit amet consectetur adipisicing
+    </h4>
+<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+     Eveniet aspernetur repudiandae nostrum dolorem molestias odio. sit 
+     fugit adipisci omnis quia itaque ratione iusto
+     sapiente reiciendis,numquam officiis aliquid
+     ipsum fuga </p>
+
+     <p class="card-text">
+        <small class="">
+            <span class="">
+                Author:
+
+            </span>
+john doe
+        </small>
+
+     </p>
+<a href="#" class="btn"> read more</a>
+
+</div>
+  </div>
+
+
+            <div class="card border-0 col-md-6 col-lg-4
+            bg-transparent my-3">
+<img src="images/blogs img-2.jpg" alt="">
+<div class="card-body px-0">
+    <h4 class="card-title">
+        Lorem ipsum, dolor sit amet consectetur adipisicing
+    </h4>
+<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+     Eveniet aspernetur repudiandae nostrum dolorem molestias odio. sit 
+     fugit adipisci omnis quia itaque ratione iusto
+     sapiente reiciendis,numquam officiis aliquid
+     ipsum fuga </p>
+
+     <p class="card-text">
+        <small class="">
+            <span class="">
+                Author:
+
+            </span>
+john doe
+        </small>
+
+     </p>
+<a href="#" class="btn"> read more</a>
+
+</div>
+            </div>
+
+
+            <div class="card border-0 col-md-6 col-lg-4
+            bg-transparent my-3">
+<img src="images/blogs img-3.jpg" alt="">
+<div class="card-body px-0">
+    <h4 class="card-title">
+        Lorem ipsum, dolor sit amet consectetur adipisicing
+    </h4>
+<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+     Eveniet aspernetur repudiandae nostrum dolorem molestias odio. sit 
+     fugit adipisci omnis quia itaque ratione iusto
+     sapiente reiciendis,numquam officiis aliquid
+     ipsum fuga </p>
+
+     <p class="card-text">
+        <small class="">
+            <span class="">
+                Author:
+
+            </span>
+john doe
+        </small>
+
+     </p>
+<a href="#" class="btn"> read more</a>
+
+</div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<!--End of blogs -->
+
+
+<!-- about us -->
+
+<section id="about" class="py-5">
+<div class="container">
+<div class="row gy-lg-5 align-items-center">
+    <div class="col-lg-6 order-lg-1 text-center
+    text-lg-start">
+        <div class="title pt-3 pb-5">
+            <h2 class="position-relative d-inline-block
+            ms-4"> About us
+            </h2>
+
+        </div>
+<p class="lead text-muted">Lorem ipsum dolor sit amet consectetur
+    adipisicing elit. nobis, ipsam
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    voluptaten fuga blanditiis, modi exercitationem
+    quae quam eveniet! minus labore voluptatibus corporis recusandae accusantium velit
+    ,nemo,nobis,nulla ullam pariatur totam quos 
+</p>
+    </div>
+<div class="col-lg-6 order-lg-0">
+    <img src="images/About us img.jpg" alt="" class="img-fluid">
+
+</div>
+</div>
+</div>
+</section>
+
+ <!-- End of about  -->
+
+
+ <!-- newsletter -->
+<section id="newsletter" class="py-5">
+    <div class="container">
+<div class="d-flex flex-column align-items-center
+justify-content-center">
+<div class="title text-center pt-3 pb-5">
+<h2 class="position-relative d-inline-block
+ms-4">Newsletter Subscription</h2>
+</div>
+<p class="text-center text-muted">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. possimus rem officia
+accusantium maiores quisquam dolorum</p>
+<div class="input-group mb-3 mt-3">
+<input type="text" class="form-control"
+placeholder="Enter Your Email...">
+<button class="btn btn-primary" type="submit">
+Subscribe
+</button>
+</div>
+</div>
+    </div>
+</section>
+
+ <!-- end of newsletter -->
+
+
+<!-- footer -->
+<footer class="bg-dark py-5">
+<div class="container">
+    <div class="row text-white g-4">
+        <div class="col-md-6 col-lg-3">
+            <a class="text-uppercase text-decoration-none brand
+            text-white" href="index.html"> ALBATROSS.COM </a>
+
+<p class="text-white text-muted mt-3">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+ quod neque earum beatae unde repellat sequi, eligendi recusandae ex, deserunt
+  a eveniet! Iste consectetur quis vitae, officia nostrum dolorum suscipit?</p>
+</div>
+<div class="col-md-6 col-lg-3">
+<h5 class="fw-light">Links</h5>
+<ul class="list-unstyled">
+    <li class="my-3">
+        <a href="#" class="text-white
+        text-decoration-none text-muted">
+<i class="fas fa-chevron-right me-1">
+</i>Home
+        </a>
+    </li>
+
+    <li class="my-3">
+        <a href="#" class="text-white
+        text-decoration-none text-muted">
+<i class="fas fa-chevron-right me-1">
+</i>COLLECTION
+        </a>
+    </li>
+
+
+
+    <li class="my-3">
+        <a href="#" class="text-white
+        text-decoration-none text-muted">
+<i class="fas fa-chevron-right me-1">
+</i>BLOGS
+        </a>
+    </li>
+
+
+    <li class="my-3">
+        <a href="#" class="text-white
+        text-decoration-none text-muted">
+<i class="fas fa-chevron-right me-1">
+</i>ABOUT US
+        </a>
+    </li> 
+</ul>
+</div>
+
+<div class="col-md-6 col-lg-3">
+    <h5 class="fw-light mb-3">Contact us</h5>
+    <div class="d-flex justify-content-start
+    align-items-start my-2 text-muted">
+    <span class="me-3">
+        <i class="fas fa-map-marked-alt"></i>
+    </span>
+<span class="fw-light">
+
+joes street,New york, as 756,united
+states of America
+</span>
+    </div>
+
+
+    <div class="d-flex justify-content-start
+    align-items-start my-2 text-muted">
+    <span class="me-3">
+        <i class="fas fa-envelope"></i>
+    </span>
+<span class="fw-light">
+
+albatross.support@gmail.com
+</span>
+    </div>
+
+
+    <div class="d-flex justify-content-start
+    align-items-start my-2 text-muted">
+    <span class="me-3">
+        <i class="fas fa-phone-alt"></i>
+    </span>
+<span class="fw-light">
+
++9745 8345 794
+</span>
+</div>
+</div>
+
+
+<div class="col-md-6 col-lg-3">
+<h5 class="fw-light mb-3">Follow Us</h5>
+<div >
+<ul class="list-unstyled d-flex">
+<li>
+    <a href="#" class="text-white text-decoration-none text-muted  fs-4
+    me-4">
+<i class="fab fa-facebook-f"> </i>
+    </a>
+</li>
+
+<li>
+    <a href="#" class="text-white text-decoration-none text-muted fs-4
+    me-4">
+<i class="fab fa-twitter"> </i>
+    </a>
+</li>
+
+
+<li>
+    <a href="#" class="text-white text-decoration-none text-muted fs-4
+    me-4">
+<i class="fab fa-instagram"> </i>
+    </a>
+</li>
+
+<li>
+    <a href="#" class="text-white text-decoration-none text-muted fs-4
+    me-4">
+<i class="fab fa-pinterest"> </i>
+    </a>
+</li>
+
+
+
+</ul>
+</div>
+</div>
+
+
+</div>
+</div>
+</footer>
+<!--End of footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jquery -->
+    <script src="js/code.jquery.com_jquery-3.7.0.js"></script>
+    <!-- isotope js-->
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script> 
+
+
+
+    <!-- bootstrap js -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
